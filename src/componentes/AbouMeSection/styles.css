@@ -1,0 +1,16 @@
+.areaAboutMe{
+    
+     color: var(--color-white);
+     padding:  30px 30px 30px 30px;
+     margin-top: 50px ;
+     text-align: center;  
+     display: grid;
+     grid-template-columns: 1fr 2fr;   
+     text-align: start;     
+}
+
+.txt{
+     text-align: justify;
+     
+     
+}
