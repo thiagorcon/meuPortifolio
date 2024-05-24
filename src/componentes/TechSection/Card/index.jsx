@@ -7,8 +7,8 @@ const CardTechSection = () => {
           <>
                <div className={style.card}>
                     {technologies.map(item => (
-                         <div className={style.cardArea} key={item.name}>
-                              <img src={item.img} alt="imagem da tecnologia" />
+                         <div className={style.cardArea}  key={item.name}>
+                              <img src={item.img} alt="imagem da tecnologia"  />
                               <h3>{item.name}</h3>
                          </div>
                         

@@ -1,26 +1,29 @@
-.areaTech{
-     /* border: solid 5px var(--color-white); */
-     /* margin-top: 50px; */
-     /* height: 300px; */
-     height: auto;    
-     width: 100%;  
-     display: grid;     
-     grid-template-rows: 2; 
-     align-items: center;
-     justify-content: start;      
-     padding: 20px 20px 20px 20px;
-     gap: 20px;  
- }
+.areaTech {
+  
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 2;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 20px 20px 20px;
+  gap: 20px;
 
- 
-.areaTit{
-     align-content: center;  
-     color: blue;   
-     height: 10%;
+  
+  margin-top: 3.125rem;
+  margin-left: 17rem;
+  gap: 0px;
+  border-radius: 25px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
 
-.areaCard{
-     height: 100%;
- }
+.areaTit {
+  align-content: center;
+  color: blue;
+  height: 10%;
+}
 
- 
+.areaCard {
+  height: 100%;
+}

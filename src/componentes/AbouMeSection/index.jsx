@@ -1,4 +1,5 @@
 import '../AbouMeSection/styles.css'
+import '../../styles/global.css'
 const AboutMeSection = () => {
 
      return (

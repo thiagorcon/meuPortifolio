@@ -1,20 +1,20 @@
 import React from 'react';
 import style from './style.module.css'
- import CardTechSection from './Card';
+ import CardProjectSection from './Card';
 
 const ProjectSection = () => {
 
     return (
 
-        <div className={style.areaTech}>
+        <section className={style.areaProjects} >
             <div className='areaTit'>
-                <h1>Projetos</h1>
+                <h1 className='areaTit'>Projetos</h1>
             </div>
             <div className={style.areaCard}>                
-                 <CardTechSection /> 
+                 <CardProjectSection /> 
             </div>
             
-        </div>
+        </section>
     );
 }
 

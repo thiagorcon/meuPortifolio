@@ -1,18 +1,21 @@
 import '../Header/styles.css'
+import '../../styles/typografy.css'
 
 const Header = () => {
      return (
-          <div className="cabecalho centro">
-               <div >
+          <header className="cabecalho centro">
+               <div className='container-header'>
                     <h1>Portifólio</h1>
+                    <nav className='container-nav'>
+                         <a>Sobre</a>
+                         <a>Stack</a>
+                         <a>Projetos</a>
+                    </nav>
+                    <a href="#contato">
+                         <button className="btnGlobal" >Contato</button>
+                    </a>
                </div>
-               <div><h4>Sobre</h4></div>
-               <div><h4>Stack</h4></div>
-               <div><h4>Projetos</h4></div>
-               <div ><a href="#contato">
-                    <button a><h4 className="btnGlobal">Contato</h4></button>
-               </a></div>
-          </div>
+          </header>
      )
 }
 

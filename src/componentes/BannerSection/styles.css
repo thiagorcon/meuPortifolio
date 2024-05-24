@@ -1,7 +1,7 @@
-.areaBanner{
-      /* background-color: var(--color-white);  */
+.container-section{
+      
      padding:  10px 10px;
-     margin-top: 50px ;
+     margin-top: .625rem ;
      text-align: center; 
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -10,6 +10,12 @@
      color: var(--color-black);
      justify-content: start;    
      gap: 5px;
+     width: 100%;
+     max-width: 66.25rem;
+     justify-content: space-between;margin-top: 9.625rem;
+     margin-left: 17rem;
+     border: .0625rem var(--color-black) solid;
+     border-radius: .75rem;
 }
 
 p{

@@ -1,15 +1,18 @@
 .area {
-  /* background-color: var(--color-white); */
+  
   padding: 30px 30px;
   margin-top: 50px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 1.25rem;
 
   border-top: var(--color-white) solid 1px;
   border-bottom: var(--color-white) solid 1px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 200px;
+  margin-top: 1.875rem;
+  margin-left: 17rem;
+  width: 100%;
 }
 .areaImg {
   gap: 30px;

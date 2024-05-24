@@ -11,7 +11,7 @@ const TechSection = () => {
             <div className='areaTit'>
                 <h1>Tecnologias</h1>
             </div>
-            <div className={style.areaCard}>
+            <div className={style.areaCard} >
                 
                  <CardTechSection /> 
             </div>

@@ -1,16 +1,22 @@
-.areaAboutMe{
-    
-     color: var(--color-white);
-     padding:  30px 30px 30px 30px;
-     margin-top: 50px ;
-     text-align: center;  
-     display: grid;
-     grid-template-columns: 1fr 2fr;   
-     text-align: start;     
+.areaAboutMe {
+  color: var(--color-white);
+   padding: .625rem; 
+  
+  text-align: center;
+  display: flex;
+  text-align: start;
+  
+  width: 100%;
+  gap: 18.75rem;
+  height: 9.375rem;
+  top: 32.4375rem;
+  left: 17rem;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 1.0625rem;
+  margin-left: 17rem;
 }
 
-.txt{
-     text-align: justify;
-     
-     
+.txt {
+  text-align: justify;
 }

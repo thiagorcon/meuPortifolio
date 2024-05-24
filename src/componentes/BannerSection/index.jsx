@@ -5,7 +5,7 @@ import imgBanner from '../../assets/banner-img.png';
 const BannerSection = () => {
      return (
           <>
-               <div className="areaBanner">
+               <section className="container-section">
                     <div className='alinhar'>
                          <div className='alinharInside'>
                               <h4 className='nome'>{username}</h4>
@@ -23,7 +23,7 @@ const BannerSection = () => {
                     <div>
                          <img className='alinhar img' src={imgBanner} alt="imagem computador" />
                     </div>
-               </div>               
+               </section>               
           </>
      )
 
