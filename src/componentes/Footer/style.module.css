@@ -1,14 +1,19 @@
 .area {
   
-  padding: 30px 30px;
-  margin-top: 50px;
-  text-align: center;
-  margin-bottom: 1.25rem;
+  width: 896px;
+  height: 190px;
+  top: 1658px;
+  
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 
   border-top: var(--color-white) solid 1px;
   border-bottom: var(--color-white) solid 1px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 200px;
   margin-top: 1.875rem;
   margin-left: 17rem;
@@ -16,18 +21,22 @@
 }
 .areaImg {
   gap: 30px;
-  margin: 20px;
-  align-items: center;
+  margin: .9375rem;
+
   display: flex;
+  justify-content: center;
+
   flex-direction: row;
+  width: 86px;
+  height: 22px;
 }
 .areaText {
-  font-size: small;
-  align-items: center;
+  font-size: small;  
   display: flex;
-  flex-direction: row;
-  justify-content: start;
+  flex-direction: column;
+  align-items: start;
 }
 img {
   gap: 100px;
+  
 }

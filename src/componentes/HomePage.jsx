@@ -1,10 +1,10 @@
 import '../styles/index.css';
-import Header from './Header'
+import Header from './Header';
 import BannerSection from './BannerSection';
 import AboutMeSection from './AbouMeSection';
 import TechSection from './TechSection';
 
-import ProjectSection from './ProjectSection'
+import ProjectSection from './ProjectSection';
 import Footer from './Footer';
 
 const HomePage = () => {

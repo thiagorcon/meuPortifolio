@@ -1,21 +1,22 @@
 .cabecalho{
-     color: var(--color-white);     
+     color: var(--color-white);    
      
      display: flex;     
      align-items: center;
-     justify-content: center;
-     
-     height: 3.125rem;     
+     justify-content: center;    
+          
      column-gap: 130px;
-     width: 100%;
+     height: 2.4375rem;
+     width: 56.1688rem;
      margin-top: 1.0625rem;
      margin-left: 17rem;
+     gap: 14.3125rem;
 }
 .container-header{
     display: flex;
-    max-width: 66.25rem;
+     max-width: 56.1688rem; 
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .container-nav{
     display: flex;

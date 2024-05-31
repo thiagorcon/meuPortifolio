@@ -24,15 +24,7 @@ body{
 }
 
 
-/* h1{
-width: 13.1875rem;
-height: 3rem;
-top: 32.4375rem;
-left: 17rem;
-gap: 0px;
-opacity: 0px;
 
-} */
 
 .btnGlobal{
      background-color:var(--color-button);  

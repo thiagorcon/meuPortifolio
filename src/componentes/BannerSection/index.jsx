@@ -6,7 +6,7 @@ const BannerSection = () => {
      return (
           <>
                <section className="container-section">
-                    <div className='alinhar'>
+                    <article className='alinhar'>
                          <div className='alinharInside'>
                               <h4 className='nome'>{username}</h4>
                          </div>
@@ -19,10 +19,10 @@ const BannerSection = () => {
                          <div className='alinhar last alinharInside'>
                               <button className='btnGlobal '>Saiba mais</button>
                          </div>
-                    </div>
-                    <div>
+                    </article>
+                    <figure>
                          <img className='alinhar img' src={imgBanner} alt="imagem computador" />
-                    </div>
+                    </figure>
                </section>               
           </>
      )

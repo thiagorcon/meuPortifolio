@@ -1,10 +1,10 @@
-import '../Header/styles.css'
-import '../../styles/typografy.css'
+import '../Header/styles.css';
+import '../../styles/typografy.css';
 
 const Header = () => {
      return (
           <header className="cabecalho centro">
-               <div className='container-header'>
+               <section className='container-header'>
                     <h1>Portifólio</h1>
                     <nav className='container-nav'>
                          <a>Sobre</a>
@@ -14,9 +14,9 @@ const Header = () => {
                     <a href="#contato">
                          <button className="btnGlobal" >Contato</button>
                     </a>
-               </div>
+               </section>
           </header>
      )
 }
 
-export default Header
+export default Header;

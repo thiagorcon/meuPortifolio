@@ -1,11 +1,10 @@
 .areaAboutMe {
   color: var(--color-white);
-   padding: .625rem; 
-  
+   padding: .625rem;   
   text-align: center;
+  justify-content: space-between;
   display: flex;
-  text-align: start;
-  
+  text-align: start;  
   width: 100%;
   gap: 18.75rem;
   height: 9.375rem;
@@ -19,4 +18,5 @@
 
 .txt {
   text-align: justify;
+  width: 50%;
 }

@@ -1,5 +1,5 @@
 
-import HomePage from "./componentes/HomePage"
+import HomePage from "./componentes/HomePage";
 
 
 function App() {
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
