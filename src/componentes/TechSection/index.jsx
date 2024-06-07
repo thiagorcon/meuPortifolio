@@ -18,6 +18,6 @@ const TechSection = () => {
             
         </aside>
     );
-}
+};
 
 export default TechSection;

@@ -8,7 +8,7 @@ const CardTechSection = () => {
                <nav className={style.card}>
                     {technologies.map(item => (
                          <div className={style.cardArea} key={item.name}>
-                              <img src={item.img} alt="imagem da tecnologia" />
+                              <img src={item.img} alt='imagem da tecnologia' />
                               <h3>{item.name}</h3>
                          </div>
 
@@ -16,7 +16,7 @@ const CardTechSection = () => {
 
                </nav >
           </>
-     )
-}
+     );
+};
 
 export default CardTechSection;

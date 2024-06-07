@@ -16,7 +16,7 @@ const HomePage = () => {
                     <ProjectSection />
                </TemplateDefault>
           </>
-     )
-}
+     );
+};
 
 export default HomePage;

@@ -4,7 +4,7 @@ const AboutMeSection = () => {
 
      return (
           <>
-               <div className="areaAboutMe">
+               <div className='areaAboutMe'>
                     
                          <h1>Sobre mim</h1>
                     
@@ -15,7 +15,7 @@ const AboutMeSection = () => {
                     </section>
                </div>
           </>
-     )
-}
+     );
+};
 
 export default AboutMeSection;

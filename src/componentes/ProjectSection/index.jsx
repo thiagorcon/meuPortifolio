@@ -16,6 +16,6 @@ const ProjectSection = () => {
             
         </section>
     );
-}
+};
 
 export default ProjectSection;

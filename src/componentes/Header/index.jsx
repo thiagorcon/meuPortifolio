@@ -11,12 +11,12 @@ const Header = () => {
                          <a>Stack</a>
                          <a>Projetos</a>
                     </nav>
-                    <a href="#contato">
-                         <button className="btnGlobal" >Contato</button>
+                    <a href='#contato'>
+                         <button className='btnGlobal' >Contato</button>
                     </a>
                </section>
           </header>
-     )
-}
+     );
+};
 
 export default Header;

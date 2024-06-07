@@ -1,16 +1,18 @@
 .card {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  
 }
 
 .cardArea {
   display: flex;
   align-items: center;
-  /* grid-template-columns: 2fr;       */
+   
   width: 250px;
-  margin: 10px 10px 10px 10px;
-  gap: 34px;
+  margin: 10px 0 10px 0;
+  gap: 50px;
   padding: 10px;
   border: 0.5px solid var(--color-white) ;
   border-radius: 20px ;

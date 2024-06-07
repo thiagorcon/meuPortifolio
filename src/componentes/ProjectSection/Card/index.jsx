@@ -15,13 +15,13 @@ const CardProjectSection = () => {
                               </div>
                               <image className={style.cardImg}>
                                    
-                                   <a href="https://www.globo.com/" target="_blank"> <img src={imagem} alt="imagem" />   </a>
+                                   <a href='https://www.globo.com/' target='_blank'> <img src={imagem} alt='imagem' />   </a>
                               </image>
                          </section>
                     ))}
                </nav >
           </>
-     )
-}
+     );
+};
 
 export default CardProjectSection;
